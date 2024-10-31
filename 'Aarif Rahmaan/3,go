@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+func main() {
+ var qirat, fals, dirham, dinar int
+ fmt.Scan(&qirat) 
+ fals = qirat/6
+ dirham = fals/10
+ dinar = dirham/10
+ fmt.Print(dinar, dirham, fals, qirat)
+}
